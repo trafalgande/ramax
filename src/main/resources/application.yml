@@ -12,6 +12,6 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
 map:
   api:
-    key: "AIzaSyAqD0wvGo-qEM7Drjh679w6p7QnWQaYh48"
+    key: "*****"
 server:
   port: 8282
