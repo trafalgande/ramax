@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ramax
+    driver-class-name: org.postgresql.Driver
+    username: user
+    password: user
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+map:
+  api:
+    key: "AIzaSyAqD0wvGo-qEM7Drjh679w6p7QnWQaYh48"
+server:
+  port: 8282
