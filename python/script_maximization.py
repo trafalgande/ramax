@@ -416,11 +416,10 @@ for i in range(204):
     saved = []
     saved_j = 0
     result = []
-
     score = 0
     j = 0
+    
     while j <= 204:
-
         j += 1
         point = path[(i + j) % 204]
         res = check(now_points + [point])
@@ -442,6 +441,7 @@ for i in range(204):
                 cur_merch += 1
             else:
                 break
+        
         elif res == 11:
             break
         if j == 204:
